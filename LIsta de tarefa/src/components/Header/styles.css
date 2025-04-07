@@ -1,0 +1,45 @@
+.topo {
+  width: 23.4375rem;
+  height: 10.8125rem;
+  background-color: var(--gray-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topo img {
+  width: 105px;
+  height: 36px;
+}
+
+.actions {
+  align-items: center;
+  position: absolute;
+  z-index: -1px;
+  margin-top: 142px;
+  display: flex;
+  gap: 8px;
+}
+
+.actions input {
+  border-radius: 8px;
+  width: 267px;
+  height: 52px;
+  background-color: var(--gray-100);
+  color: var(--gray-300);
+  border: none;
+  font: var(--input);
+  border: solid 2px var(--gray-300);
+  color: var(--gray-500);
+}
+
+.actions button {
+  border-radius: 8px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background-color: var(--p-dark);
+  color: var(--gray-100);
+  cursor: pointer;
+}

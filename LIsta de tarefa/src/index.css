@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  /* principal */
+
+  --p-light: #ddd2ef;
+  --p-base: #9359f3;
+  --p-dark: #6f3cc3;
+  --g-light: #bfe3d0;
+  --g-base: #479c6e;
+  --g-dark: #2d6c4a;
+
+  /* base  */
+
+  --gray-100: #f0edf2;
+  --gray-200: #e5e2e9;
+  --gray-300: #e0dce4;
+  --gray-400: #d1cbd7;
+
+  /*feedback */
+
+  --danger: #c2464d;
+
+  /* tipografia */
+
+  --input: 400 16px/140%;
+  --button: 700 14px/140%;
+  --subtitle: 600 14px/120%;
+  --tag: 700 12px/120%;
+  --text-md: 400 14px/140%;
+  --input: 400 14px/140%;
+  --input: 400 12px/140%;
+  --input: 400 12px/140%;
+}
